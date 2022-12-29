@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Booking appointment(failed)">
+    <classes>
+      <class name="Automationn.E2EProject.Appointmentpage">
+        <methods>
+          <include name="invokebrowser"/>
+          <include name="sitelogin"/>
+          <include name="booking"/>
+        </methods>
+      </class> <!-- Automationn.E2EProject.Appointmentpage -->
+    </classes>
+  </test> <!-- Booking appointment(failed) -->
+  <test thread-count="5" name="Validate booking(failed)">
+    <classes>
+      <class name="Automationn.E2EProject.ValidateBookingPage">
+        <methods>
+          <include name="invokebrowser"/>
+          <include name="validate"/>
+          <include name="sitelogin"/>
+          <include name="booking"/>
+        </methods>
+      </class> <!-- Automationn.E2EProject.ValidateBookingPage -->
+    </classes>
+  </test> <!-- Validate booking(failed) -->
+</suite> <!-- Failed suite [Suite] -->
